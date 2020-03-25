@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import './Landing.css';
+import { Link } from 'react-router-dom';
 
 class Landing extends Component {
     render() {
         return(
-            <div>
-                <div>HELLO WELCOME TO MY MINDFULNESS APP</div>
+            <div className='Landing'>
+                <div>hey there, hope you're okay</div>
+                <Link to='/home'><button className='Landing-Button'>continue</button></Link>
             </div>
         )
     }

@@ -1,4 +1,4 @@
-.Home {
+.Quote {
     background-color: black;
     color: wheat;
     height: 100vh;
@@ -8,4 +8,5 @@
     align-items: center;
     justify-content: center;
     font-family: 'Bellota', cursive;
+    font-size: 2rem;
 }

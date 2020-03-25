@@ -1,0 +1,21 @@
+.Landing {
+    background-color: black;
+    color: wheat;
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bellota', cursive;
+    font-size: 2rem;
+}
+
+.Landing-Button {
+    background-color: wheat;
+    border-radius: 10%;
+    font-family: 'Bellota', cursive;
+    font-size: 1rem;
+    margin: 2rem;
+    font-weight: bold;
+}

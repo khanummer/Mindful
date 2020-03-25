@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { Switch, Route, withRouter } from 'react-router-dom';
 import Home from './Home/Home';
 import Landing from './Landing/Landing';
-import Home from './Home/Home';
+import Quote from './Quote/Quote';
 
 class App extends Component {
   render() {
@@ -13,6 +12,7 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={() => <Landing/>}/>
             <Route exact path="/home" component={() => <Home/>}/>
+            <Route exact path="/quoteoftheday" component={() => <Quote/>}/>
           </Switch>
       </div>
     )
